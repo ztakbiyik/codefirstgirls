@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+
+}
+
+@font-face {
+  font-family: gamefont;
+  src: url(Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+body{
+  font-family: gamefont;
+  background-color: black !important;
+
+}
+/*test*/
+.hoverable{
+  display:inline-block;
+  backface-visibility: hidden;
+  vertical-align: middle;
+  position:relative;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+  transform: translateZ(0);
+  transition-duration: .3s;
+  transition-property:transform;
+}
+
+.hoverable:before{
+  position:absolute;
+  pointer-events: none;
+  z-index:-1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height:10px;
+  width:90%;
+  opacity:0;
+  background: -webkit-radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+  /* W3C */
+  transition-duration: 0.3s;
+  transition-property: transform, opacity;
+}
+
+.hoverable:hover, .hoverable:active, .hoverable:focus{
+  transform: translateY(-5px);
+}
+.hoverable:hover:before, .hoverable:active:before, .hoverable:focus:before{
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+/*before*/
+
+.headerimage{
+    background-image: url("https://pbs.twimg.com/media/FZFaxjdXoAQXNWO?format=jpg&name=medium");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: width 150px, height 79px;
+    background-position: center;
+}
+.Gallery{
+    color: white;
+    font-family: "Amatic SC Regular";
+    font-size: 100px;
+    padding: 5em;
+
+    
+}
+/*.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: rgb(117, 11, 11);
+    font-family: "Press Start 2P";
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 2em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: rgb(117, 11, 11);
+  }
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 1em;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  } 
+  table{
+    
+    width: 70%;
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: 31px;
+    padding: 10px;
+    border-style: dashed;
+
+}
+
+td {
+  height: 20px;
+  padding: 5px;
+}
+img{
+    object-fit: cover;
+    height: 550px;
+    width: 550px;
+}
+*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+.footer{
+    padding: 50px;
+    color:white;
+    font-size: 24px;
+    font-family: "Press Start 2P";
+  }

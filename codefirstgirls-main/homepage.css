@@ -1,0 +1,49 @@
+body {
+
+    background-color:black;
+    text-align: center;
+    line-height: 0.1em;
+}
+@font-face {
+  font-family: gamefont;
+  src: url(Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+h1{
+    color: white;
+    font-family: "Amatic SC Regular";
+    font-size: 100px;
+}
+h2{
+    color: #0080bc;
+    font-family: Bangers;
+    font-size: 200px;
+    text-shadow: 2px 2px 0 #FFFFFF, 2px -2px 0 #FFFFFF, -2px 2px 0 #FFFFFF, -2px -2px 0 #FFFFFF, 2px 0px 0 #FFFFFF, 0px 2px 0 #FFFFFF, -2px 0px 0 #FFFFFF, 0px -2px 0 #FFFFFF;
+    color: #0074bc;    
+  }
+
+h3{
+  
+  color: white;
+  font-family: "Amatic SC Regular";
+  font-size: 100px;
+}
+
+.about_us{
+  color: white;
+  font-family: gamefont ;
+}
+.quizzes{
+  color: white;
+  font-family: gamefont ;
+}
+.footer{
+  color: white;
+  font-family: gamefont ;
+}
+table{
+  text-align: center;
+}
+.footer{
+  padding: 50px;
+}
