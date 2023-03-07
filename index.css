@@ -6,13 +6,78 @@
 
 html, body{
     height: 100%;
+
 }
 
+@font-face {
+    font-family: gamefont;
+    src: url(Press_Start_2P/PressStart2P-Regular.ttf);
+}
 
 body{
-    font-family: 'Montserrat', serif;
+    font-family: gamefont;
+    background-color: black !important;
 
 }
+
+
+
+.hoverable{
+    display:inline-block;
+    backface-visibility: hidden;
+    vertical-align: middle;
+    position:relative;
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    transform: translateZ(0);
+    transition-duration: .3s;
+    transition-property:transform;
+}
+
+.hoverable:before{
+    position:absolute;
+    pointer-events: none;
+    z-index:-1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height:10px;
+    width:90%;
+    opacity:0;
+    background: -webkit-radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+    /* W3C */
+    transition-duration: 0.3s;
+    transition-property: transform, opacity;
+}
+
+.hoverable:hover, .hoverable:active, .hoverable:focus{
+    transform: translateY(-5px);
+}
+.hoverable:hover:before, .hoverable:active:before, .hoverable:focus:before{
+    opacity: 1;
+    transform: translateY(-5px);
+}
+/*everything below here is just setting up the page, so dont worry about it */
+
+nav {
+    text-align:center;
+    background:none !important;
+    text-transform:uppercase;
+    font-family: gamefont;
+
+    margin-left: 20em;
+    margin-right: 20em;
+}
+li {
+    text-align:center;
+    margin-left: 5em;
+    margin-right: 5em;
+    transition: .5s color ease-in-out;
+    font-family: gamefont;
+
+}
+
+
 
 main{
     width: 100%;
@@ -22,17 +87,16 @@ main{
     justify-content: center;
     align-items: center;
     background-color: black;
-    background-color : black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .game-quiz-container{
-    width: 40rem;
-    height: 30rem;
+    width: 50rem !important;
+    height: 40rem !important;
     background-color: lightgray;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -41,7 +105,7 @@ main{
 
 .game-details-container{
     width: 80%;
-    height: 4rem;
+    height: 5rem !important;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -52,8 +116,8 @@ main{
 }
 
 .game-question-container{
-    width: 80%;
-    height: 8rem;
+    width: 95%;
+    height: 13rem !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,17 +132,17 @@ main{
 }
 
 .game-options-container{
-    width: 80%;
-    height: 12rem;
-    display: flex;
-    flex-wrap: wrap;
+    width: 100% !important;
+    height: 14rem !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
     align-items: center;
     justify-content: space-around;
 }
 
 .game-options-container span{
-    width: 45%;
-    height: 3rem;
+    width: 50% !important;
+    height: 4rem !important;
     border: 2px solid darkgray;
     border-radius: 20px;
     overflow: hidden;
@@ -119,8 +183,8 @@ input[type=radio]:checked ~ .option {
     justify-content: center;
 }
 .next-button-container button{
-    width: 8rem;
-    height: 2rem;
+    width: 30rem;
+    height: 3rem;
     border-radius: 10px;
     background: none;
     color: rgb(25, 25, 25);
