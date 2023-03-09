@@ -65,14 +65,14 @@ body{
     /*background-size: width:150px, height:79px;*/
     background-position: center;
 }
-.Gallery{
+/*.Gallery{
     color: white;
     font-family: "Amatic SC Regular";
     font-size: 100px;
     padding: 5em;
 
     
-}
+} */
 /*.navigation {
     display: flex;
     flex-flow: row wrap;
@@ -137,9 +137,22 @@ img{
     width: 550px;
 }
 */
+.quizzical{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.all-quizzes{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
 .center {
     margin-left: auto;
     margin-right: auto;
+    text-align:left;
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
   
   
@@ -147,5 +160,27 @@ img{
     padding: 50px;
     color:white;
     font-size: 24px;
-    font-family: "Press Start 2P";
+    font-family: gamefont;
+    margin-top: 200px;
+    text-align: end;
   }
+nav {
+    text-align:center;
+    background:none !important;
+    text-transform:uppercase;
+    font-family: gamefont;
+
+    margin-left: 20em;
+    margin-right: 20em;
+}
+li {
+    text-align:center;
+    margin-left: 5em;
+    margin-right: 5em;
+    transition: .5s color ease-in-out;
+    font-family: gamefont;
+
+}
+
+
+

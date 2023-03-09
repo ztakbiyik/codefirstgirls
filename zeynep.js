@@ -2,38 +2,38 @@
 
 const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
+        question: "How many albums does Taylor Swift have (excluding re-recordings)?",
+        optionA: "10",
+        optionB: "12",
+        optionC: "7",
+        optionD: "15",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "What is Taylor Swift's middle name?",
+        optionA: "Andrea",
+        optionB: "Allie",
+        optionC: "Alison",
+        optionD: "Augustine",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "When is Taylor Swift's birthday?",
+        optionA: "February 14th",
+        optionB: "January 12th",
+        optionC: "November 14th",
+        optionD: "December 13th",
         correctOption: "optionD"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
+        question: "What is the name of the last cat Taylor Swift adopted?",
+        optionA: "Peter Parker",
+        optionB: "Olivia Benson",
+        optionC: "Benjamin Button",
+        optionD: "Tyler Durden",
         correctOption: "optionC"
     },
 

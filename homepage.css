@@ -8,15 +8,23 @@ body {
   font-family: gamefont;
   src: url(Press_Start_2P/PressStart2P-Regular.ttf);
 }
+@font-face {
+    font-family: amatic;
+    src: url(Amatic_SC/AmaticSC-Bold.ttf);
+}
+@font-face {
+    font-family: bangers;
+    src: url(Bangers/Bangers-Regular.ttf);
+}
 
 h1{
     color: white;
-    font-family: "Amatic SC Regular";
+    font-family: amatic;
     font-size: 100px;
 }
 h2{
-    color: #0080bc;
-    font-family: Bangers;
+    /*color: #0080bc;*/
+    font-family: bangers;
     font-size: 200px;
     text-shadow: 2px 2px 0 #FFFFFF, 2px -2px 0 #FFFFFF, -2px 2px 0 #FFFFFF, -2px -2px 0 #FFFFFF, 2px 0px 0 #FFFFFF, 0px 2px 0 #FFFFFF, -2px 0px 0 #FFFFFF, 0px -2px 0 #FFFFFF;
     color: #0074bc;    
@@ -25,7 +33,7 @@ h2{
 h3{
   
   color: white;
-  font-family: "Amatic SC Regular";
+  font-family: amatic;
   font-size: 100px;
 }
 

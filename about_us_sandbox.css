@@ -9,6 +9,14 @@ body{
     
     
 }
+@font-face {
+  font-family: gamefont;
+  src: url(Press_Start_2P/PressStart2P-Regular.ttf);
+}
+@font-face {
+  font-family: amatic;
+  src: url(Amatic_SC/AmaticSC-Bold.ttf);
+}
 p{
     color: white;
 }
@@ -37,7 +45,7 @@ p{
   opacity:0;
   background: -webkit-radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
-  /* W3C */
+  /*W3C */
   transition-duration: 0.3s;
   transition-property: transform, opacity;
 }
@@ -50,18 +58,38 @@ p{
   transform: translateY(-5px);
 }
 
+nav {
+  text-align:center;
+  background:none !important;
+  text-transform:uppercase;
+  font-family: gamefont;
+
+  margin-left: 20em;
+  margin-right: 20em;
+}
+li {
+  text-align:center;
+  margin-left: 5em;
+  margin-right: 5em;
+  transition: .5s color ease-in-out;
+  font-family: gamefont;
+
+}
+
 .footer{
     padding: 50px;
     color:white;
     font-size: 24px;
     text-align: center;
-    font-family: "Press Start 2P";
+    font-family: gamefont;
   }
   .container {
     display: grid;
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
+    font-family: amatic;
+    font-size: 24px;
    }
   img {
     max-width: 50%;
@@ -72,14 +100,10 @@ p{
   .text {
     font-size: 20px;
     padding: 20px;
-    
-    padding: 20px;
-    
-    
     color: white;
   }
   .greet{
-    font-family: "Press Start 2P";
+    font-family: gamefont;
     padding: 20px;
     text-align: center; 
     font-size: 31px;
