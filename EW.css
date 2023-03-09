@@ -1,0 +1,171 @@
+/*ALL*/
+body{background-color: black!important;}
+
+#navdiv{
+    background-color: black!important;
+    color: white!important;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navdiv:hover{
+    color:#cd32a4!important;
+}
+
+#headerdiv{
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#jsHeader{
+    color:#cd32a4;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#introdiv{
+    color:white;
+    font-size: 20px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 15px;
+}
+
+#marsphoto{
+    padding: 1px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*PAGE 1*/
+#q{
+    color:white;
+    font-size: 30px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+}
+#q:hover{
+    color:#cd32a4;
+    font-weight: bold;
+}
+#submitbutton {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    align-items: center;
+}
+#submitbuttondiv{
+    padding: 30px;
+    align-items: center;
+}
+
+/*PAGE 2*/
+#formdiv{
+    color:#cd32a4;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+}
+#formbutton{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;   
+}
+#formbuttondiv{
+    padding: 30px;
+    padding-top: 0px;
+}
+
+/*Q Select dropdowns*/
+.custom-select{
+    position:relative;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*Q Select dropdowns*/
+.select.selected{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+/*Q Select dropdowns*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/*Q Select dropdowns*/
+.select-items div,.select-selected {
+  color: #cd32a4;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/*Q Select dropdowns*/
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(149, 36, 132, 0.1);
+}
+
+.hoverable{
+    display:inline-block;
+    backface-visibility: hidden;
+    vertical-align: middle;
+    position:relative;
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    transform: translateZ(0);
+    transition-duration: .3s;
+    transition-property:transform;
+}
+
+.hoverable:before{
+    position:absolute;
+    pointer-events: none;
+    z-index:-1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height:10px;
+    width:90%;
+    opacity:0;
+    background: -webkit-radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+    /* W3C */
+    transition-duration: 0.3s;
+    transition-property: transform, opacity;
+}
+
+.hoverable:hover, .hoverable:active, .hoverable:focus{
+    transform: translateY(-5px);
+}
+.hoverable:hover:before, .hoverable:active:before, .hoverable:focus:before{
+    opacity: 1;
+    transform: translateY(-5px);
+}
+/*everything below here is just setting up the page, so dont worry about it */
+
+nav {
+    text-align:center;
+    background:none !important;
+    text-transform:uppercase;
+    font-family: gamefont;
+
+    margin-left: 20em;
+    margin-right: 20em;
+}
+li {
+    text-align:center;
+    margin-left: 5em;
+    margin-right: 5em;
+    transition: .5s color ease-in-out;
+    font-family: gamefont;
+
+}
+@font-face {
+    font-family: gamefont;
+    src: url(Press_Start_2P/PressStart2P-Regular.ttf);
+}

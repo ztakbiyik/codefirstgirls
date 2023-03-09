@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="EW.js" defer></script>
+    <title>MarsNeedsYou</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel ="stylesheet" href="index.css">
+</head>
+<body>
+
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+    $(function(){
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+<!--end of Navigation bar-->
+
+    
+    <div id="headerdiv"> <!-- HEADER --> 
+      <h1 id="jsHeader">Am I a suitable candidate to join the Mars mission?</h1>
+      <h3>...Quiz</h3>
+    </div>
+
+    <div id="marsphoto">
+      <img src="mars.jpg">
+    </div>
+    
+    <div id="introdiv"> <!-- INTRO -->
+      <p>Thank you for your interest in applying to be part of the first human relocation mission to Mars!</p>
+      <br>
+      <p>We are incredably selective of the humans we can take so we will need you to answer a few questions first. Only the most *perfect* of human specimins will be accepted.
+      Please answer honestly, an inacurasees can place the mission in jeapody. </p>
+    </div>
+
+    
+    <div id="allquestionsdiv"> <!-- ALL QUESTIONS -->
+
+      <div id="q"> <!--Q1-->
+        <h2 id="q1">What physical shape are you in?</h2> 
+        <div class="custom-select" style="width:200px;">
+          <select>
+            <option value="0">Select</option>
+            <option value="1">I'm in amazing shape</option>
+            <option value="2">I'm alright</option>
+            <option value="3">I'm as sedintary as a mushroom</option>
+          </select>
+        </div>
+
+      
+
+        <h2>Are you a picky eater?</h2> 
+        <div class="custom-select" style="width:200px;">
+          <select>
+            <option value="0">Select</option>
+            <option value="1">Yes</option>
+            <option value="2">I have one or more allergies or intollerances</option>
+            <option value="3">I hate mushrooms but that's about it</option>
+            <option value="4">I omit certain foods</option>
+            <option value="5">I eat anything and everything</option>
+          </select>
+        </div>
+
+
+
+        <h2>How practical are you?</h2> 
+        <div class="custom-select" style="width:200px;">
+          <select>
+            <option value="0">Select</option>
+            <option value="1">I can build Ikea furniture with no help</option>
+            <option value="2">I can build Ikea furniture with some help</option>
+            <option value="3">I have to bribe other people to build my Ikea furniture</option>
+          </select>
+        </div>
+
+
+
+        <h2>How adventurous are you?</h2> 
+        <div class="custom-select" style="width:200px;">
+          <select>
+            <option value="0">Select</option>
+            <option value="1">I love trying new things</option>
+            <option value="2">I occasionally order meals I've never tried before</option>
+            <option value="3">I know what I like & like what I know</option>
+          </select>
+        </div>
+
+
+
+        <h2>How long can you survive without an internet connection?</h2> 
+        <div class="custom-select" style="width:200px;">
+          <select>
+            <option value="0">Select</option>
+            <option value="1">I possess amazing restraint</option>
+            <option value="2">I will be fine for a month to a year</option>
+            <option value="3">I have never been alone with my thoughts and will suffer</option>
+          </select>
+        </div>
+      </div>
+
+    
+      
+    </div> <!-- ALL QUESTIONS -->
+
+    <div id="submitbuttondiv"> <!-- SUBMIT BUTTON -->
+      <a href="EWpage2.html">
+        <button id="submitbutton" type="button" class="btn btn-dark btn-lg">Submit Answers</button>
+      </a>
+    </div>
+ 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
