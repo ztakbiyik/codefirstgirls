@@ -38,56 +38,56 @@ const questions = [
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
+        question: "Where was Taylor Swift born?",
+        optionA: "Albany, NY",
+        optionB: "Memphis, TN",
+        optionC: "Nashville, TN",
+        optionD: "Reading, PA",
         correctOption: "optionD"
     },
 
     {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "What is Taylor Swift's latest album called?",
+        optionA: "Midnights",
+        optionB: "Lavender Haze",
+        optionC: "Red",
+        optionD: "Folklore",
         correctOption: "optionA"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
+        question: "Complete the quote 'No it's ____?'",
+        optionA: "Me",
+        optionB: "Taylor",
+        optionC: "Becky",
+        optionD: "You",
         correctOption: "optionC"
     },
 
     {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        question: "What is Taylor Swift's latest world tour called?",
+        optionA: "The Eras Tour",
+        optionB: "Midnights Mayhem",
+        optionC: "The Lover Fest",
+        optionD: "World Tour Taylor's Version",
         correctOption: "optionA"
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
-        correctOption: "optionD"
+        question: "How many cats does Taylor Swift currently have?",
+        optionA: "2",
+        optionB: "3",
+        optionC: "4",
+        optionD: "5",
+        correctOption: "optionB"
     },
 
     {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
+        question: "Taylor Swift's brother's name is...",
+        optionA: "Joe",
+        optionB: "Tom",
+        optionC: "Scott",
+        optionD: "Austin",
         correctOption: "optionD"
     }
 
